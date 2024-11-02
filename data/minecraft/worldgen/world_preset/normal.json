@@ -1,0 +1,46 @@
+{
+  "dimensions": {
+    "minecraft:overworld": {
+      "type": "minecraft:overworld",
+      "generator": {
+        "type": "terra:terra",
+        "settings": "minecraft:overworld",
+        "biome_source": {
+          "pack": {
+            "pack": {
+              "id": "OVERWORLD",
+              "namespace": "OVERWORLD"
+            }
+          }
+        },
+        "pack": {
+          "pack": {
+            "id": "OVERWORLD",
+            "namespace": "OVERWORLD"
+          }
+        }
+      }
+    },
+    "minecraft:the_end": {
+      "type": "minecraft:the_end",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:end",
+        "biome_source": {
+          "type": "minecraft:the_end"
+        }
+      }
+    },
+    "minecraft:the_nether": {
+      "type": "minecraft:the_nether",
+      "generator": {
+        "type": "minecraft:noise",
+        "settings": "minecraft:nether",
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "preset": "minecraft:nether"
+        }
+      }
+    }
+  }
+}
